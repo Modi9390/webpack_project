@@ -25,9 +25,9 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
+
     "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
     }
-}
+};
