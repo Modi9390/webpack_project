@@ -151,10 +151,12 @@ class HashMap
 let myTable = new HashMap();
 
 myTable.set("name", "Modibo");
+myTable.set("surname", "Keita");
 myTable.set("age", 20);
 //myTable.remove("age");
 myTable.has("name");
 console.log(myTable.get("name"));
+console.log(myTable.get("surname"));
 console.log(myTable.get("age"));
 myTable.keys()
 myTable.values()
